@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     color: blanchedalmond;
+     font-family: "Poppins", sans-serif;  
+}
+
+.site-2{
+    background: linear-gradient(135deg, #6B4EFF,#a381ff);
+    width: 100vw;
+    height: 100vh;   
+}
+
+.chatbots{
+   width: 600px;
+  font-size: 10px;
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(108, 107, 105);
+}
+.title{
+     margin-left: 850px;
+     position: absolute;
+     width: 400px;
+     margin-top: 100px;
+     line-height: 45px;
+    text-shadow: 5px 5px 30px #e30ce3;
+   
+}
+
+.logo{
+   height: 20vh;
+    width: 10vw;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.link{
+    color: #f8f6f6;
+    position: sticky ;
+    top: 20px;
+     margin-left: 100px;
+     cursor: pointer;
+     
+}
+.link:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.link:active{
+    opacity: 0.10;
+} 
+
+.btn-saiba-mais{
+     width: 160px;
+    background-color: #f8f6f6;
+    color: #5c218d;
+    border-radius: 40px;
+    padding: 5px 35px;
+    border: 15px none #0c0214;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #c13fc1;
+}
+
+.btn-saiba-mais:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.btn-saiba-mais:active{
+    opacity: 0.10;
+} 
+
+.img-chatbot{
+    margin-left: 890px;
+    margin-top: 200px;
+    width: 20vw;
+}
+
+.img-chatbot2{
+    margin-left: 890px;
+    margin-top: 200px;
+    position: absolute;
+    width: 20vw;
+   
+}    
+
+@media (max-width: 800px) {
+    .chatbots{
+        width: 450px;
+        margin-top: 330px;
+    }
+
+    .title{
+        margin-left: 35px;
+        margin-top: 200px;
+    }
+
+    .img-chatbot{
+        display: none;
+    }
+
+    .img-chatbot2{
+        display: none;
+    }
+
+    .logo{
+        width: 25vw;
+    }
+}

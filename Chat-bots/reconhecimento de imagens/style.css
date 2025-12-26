@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.site-2{
+    background: linear-gradient(135deg, #6B4EFF,#a381ff);
+    width: 100vw;
+    height: 100vh;   
+}
+
+
+.link{
+    color: #f8f6f6;
+    position: sticky ;
+    top: 20px;
+     margin-left: 100px;
+     cursor: pointer;
+     
+}
+.link:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.link:active{
+    opacity: 0.10;
+}
+.logo{
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.title{
+      margin-left: 850px;
+     position: absolute;
+     width: 400px;
+     margin-top: 100px;
+     line-height: 45px;
+    text-shadow: 5px 5px 30px #e30ce3;
+    color: #f8f6f6;
+}
+
+.chatbots{
+   width: 600px;
+  font-size: 10px;
+  margin-top: 200px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(208, 206, 202);
+  
+}
+
+.img-chatbot{
+  margin-left: 890px;
+    margin-top: 200px;
+    width: 20vw;
+}
+
+
+/* Parte 2  */
+
+.chatbots-2{
+    width: 600px;
+  font-size: 15px;
+  margin-top: 120px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(208, 206, 202);
+}
+
+.lista-chatbots{
+      width: 600px;
+  font-size: 13px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(208, 206, 202);
+  
+}
+
+@media (max-width: 800px) {
+    .chatbots{
+        width: 450px;
+        margin-top: 500px;
+    }
+     .title{
+        margin-left: 85px;
+        margin-top: 200px;
+        width: 320px;
+    }
+
+    .img-chatbot{
+          margin-left: 175px;
+        margin-top: 300px;
+        width: 30vw;
+    }
+
+    .chatbots-2{
+         width: 450px;
+         display: none;
+       
+    }
+
+    .logo{
+        width: 20vw;
+    }
+
+    .lista-chatbots{
+         width: 450px;
+           margin-top: 500px;
+    }
+    } 

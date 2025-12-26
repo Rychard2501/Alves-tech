@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     color: blanchedalmond;
+     font-family: "Poppins", sans-serif;  
+}
+ 
+/*plano de fundo do site */
+.site-2{
+    background: linear-gradient(135deg, #6B4EFF,#a381ff);
+    width: 100vw;
+    height: 100vh;
+    
+}
+.link{
+    color: #f8f6f6;
+    position: sticky ;
+    top: 20px;
+     margin-left: 100px;
+     cursor: pointer;
+     
+}
+.link:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.link:active{
+    opacity: 0.10;
+} 
+               
+.logo{
+    height: 20vh;
+    width: 10vw;
+    position: absolute;
+    margin-left: 15px;  
+}
+
+.marketing{
+    width: 800px;
+    font-size: 20px;
+   margin-top: 150px;
+   position: absolute;
+   margin-left: 30px;
+   
+}
+.lista{
+    line-height: 35px;
+    margin-left: 15px;
+    font-size: 13px;
+  
+}
+
+             /*carrosel*/
+
+carrosel {
+    position: relative;
+    width: 20vw;
+    height: 20vh;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.imgs {
+    position: absolute;
+    width: 30%;
+    height: 35%;
+    object-fit: cover;
+    animation: slide 12s infinite;
+    opacity: 0;
+     margin-left: 890px;
+    margin-top: 100px;
+}
+
+.imgs:nth-child(1) { animation-delay: 0s; }
+.imgs:nth-child(2) { animation-delay: 4s; }
+.imgs:nth-child(3) { animation-delay: 8s; }
+
+@keyframes slide {
+    0%   { opacity: 0; }
+    5%   { opacity: 1; }
+    30%  { opacity: 1; }
+    35%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+           /* PT2 - EMAIL */
+
+ 
+ .title-email{
+     margin-left: 850px;
+    width: 450px;
+    line-height: 45px;
+     text-shadow: 5px 5px 30px #e30ce3;
+    color: #f8f6f6;
+    margin-top: 90px;
+    position: absolute;
+ }     
+
+.e-mail{
+    width: 600px;
+  font-size: 10px;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(108, 107, 105);
+  
+}
+
+
+.img-email{
+    margin-left: 890px;
+    margin-top: 200px;
+    width: 20vw;
+    
+   
+}
+
+.btn-saiba-mais{
+    width: 160px;
+    background-color: #f8f6f6;
+    color: #5c218d;
+    border-radius: 40px;
+    padding: 5px 35px;
+    border: 15px none #0c0214;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #c13fc1;
+    
+}
+
+.btn-saiba-mais:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.btn-saiba-mais:active{
+    opacity: 0.10;
+} 
+
+
+        /* pt3- automação de redes sociais */
+
+.site-3{
+    background: linear-gradient(135deg, #6B4EFF,#a381ff);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.texto-rede{
+    font-size: 20px;
+}
+
+.btn-redes{
+    width: 170px;
+    background-color: #f8f6f6;
+    color: #5c218d;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 15px none #0c0214;
+    margin-top: 450px;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #c13fc1;
+}
+.btn-redes:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.btn-redes:active{
+    opacity: 0.10;
+} 
+
+
+.e-mai{
+  width: 600px;
+  font-size: 13px;
+  margin-top: 100px;
+  position: absolute;
+  margin-left: 30px;
+  color: #0A0A0C;
+  line-height: 40px;
+  color: rgb(108, 107, 105);
+ 
+}
+
+.title-dados{
+     margin-left: 850px;
+    width: 380px;
+    line-height: 45px;
+     text-shadow: 5px 5px 30px #e30ce3;
+    color: #f8f6f6;
+    margin-bottom: 20px;
+    position: absolute;
+    font-size: 20px;
+    
+}
+.img-dados{
+     margin-left: 890px;
+    margin-top: 180px;
+    width: 20vw;
+}
+
+
+
+
+/* pt-4 publicidade*/
+.site-4{
+        background: linear-gradient(135deg, #6B4EFF,#a381ff);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: 570px;
+}
+
+.btn-publicidade{
+     width: 160px;
+    background-color: #f8f6f6;
+    color: #5c218d;
+    border-radius: 50px;
+    padding: 5px 35px;
+    border: 35px none #0c0214;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px #c13fc1; 
+}
+
+.texto-publicidade{
+    font-size: 13px;
+}
+.img-publicidade{
+     margin-left: 890px;
+    margin-top: 200px;
+    width: 20vw;;
+}
+
+.btn-publicidade:hover{
+    opacity: 0.5;
+    text-shadow: 20px 20px 20px  #8a2be2;
+}
+
+.btn-publicidade:active{
+    opacity: 0.10;
+} 
+
+.title-publicidade{
+
+ margin-left: 850px;
+    width: 400px;
+    line-height: 45px;
+     text-shadow: 5px 5px 30px #e30ce3;
+    color: #f8f6f6;
+    margin-bottom: 20px;
+    position: absolute;
+    font-size: 20px;
+    
+}
+
+@media (max-width: 700px) {
+ 
+.link {
+     display: inline;
+}
+
+.marketing{
+    margin-top: 70px;
+    width: 400px;
+}
+
+.carrosel{
+    display: none;
+}
+
+.logo{
+    display: none;
+}
+
+.e-mail{
+    width: 400px;
+    margin-top: 150px;
+}
+
+.title-email{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.img-email{
+    display: none;
+}
+
+.e-mail{
+     width: 400px;
+     margin-top: 150px;
+}
+
+.img-dados{
+    display: none;
+}
+
+.img-publicidade{
+    display: none;
+}
+
+.title-publicidade{
+    margin-left: 35px;
+    margin-top: 10px;
+}
+}
